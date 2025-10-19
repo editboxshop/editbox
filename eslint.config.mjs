@@ -20,6 +20,13 @@ const eslintConfig = [
       "next-env.d.ts",
     ],
   },
+  {
+    // 👇 Add this block
+    rules: {
+      "@typescript-eslint/no-explicit-any": "off", // disable any type errors
+      "@next/next/no-img-element": "off", // disable the <img> warning
+    },
+  },
 ];
 
 export default eslintConfig;
