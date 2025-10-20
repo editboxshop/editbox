@@ -989,7 +989,7 @@ export default function UserDashboard() {
       </motion.button>
 
       <footer className="footer" role="contentinfo">
-        <p>© 2025 WishMe • Made with 💖 by Julie</p>
+        <p>© 2025 WishMe • Made with 💖 by Vardhan Raju</p>
       </footer>
     </div>
   );
